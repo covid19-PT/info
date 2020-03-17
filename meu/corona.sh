@@ -53,7 +53,8 @@ echo "| Data | Casos | Suspeitos | Recuperados | Obitos |" >> ../README.md
 echo "|------|:-----:|:---------:|:-----------:|-------:|" >> ../README.md
 
 for (( j=0 ; j<${#conf_[@]} ; j++ )); do
-    printf "| %s |" "${conf_[$j]}">> ../README.md
+    printf "| %s |" "${date_[$j]}">> ../README.md
+    printf " %s |" "${conf_[$j]}">> ../README.md
     printf " %s |" "${susp_[$j]}" >> ../README.md
     printf " %s |" "${recu_[$j]}" >> ../README.md
     printf " %s |\n" "${obit_[$j]}" >> ../README.md 
