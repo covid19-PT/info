@@ -45,7 +45,7 @@ echo "| Casos | Suspeitos | Recuperados | Obitos |" >> ../README.md
 
 printf "\n" >> ../README.md
 
-echo "| ----- |: ------:| :--------: | ------: |" >> ../README.md
+echo "|-----|:------:|:--------:|------:|" >> ../README.md
 
 
 printf "\n" >> ../README.md
