@@ -42,9 +42,6 @@ echo "# Stats " >> ../README.md
 printf "\n" >> ../README.md
 
 echo "| Casos | Suspeitos | Recuperados | Obitos |" >> ../README.md
-
-printf "\n" >> ../README.md
-
 echo "|-------|:---------:|:-----------:|-------:|" >> ../README.md
 
 
