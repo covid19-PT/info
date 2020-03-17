@@ -35,13 +35,18 @@ done < "$input"
 
 /usr/local/MATLAB/R2018a/bin/matlab -nodisplay -nosplash -nodesktop -r "run('corona_matlab.m');exit;"
 
-echo "#Dados" > ../README.md
+echo "# Stats " >> ../README.md
+
+printf "\n" >> ../README.md
 
 echo "| Casos | Suspeitos | Recuperados | Obitos |" >> ../README.md
 
 echo "| ----- |: ------:| :--------: | ------: |" >> ../README.md
 
 
+echo "Tempo para duplicar o número de casos $(cat tempo_para_duplicar.txt) dias." >> ../README.md
+
+printf "\n" >> ../README.md
 
 echo "# Charts" >> ../README.md
 
@@ -58,14 +63,6 @@ printf "\n" >> ../README.md
 echo "![alt text](https://github.com/covid19-PT/stats/blob/master/meu/Poly$(date +"%d-%b-%Y").jpg \"Logo Title Text 1\")" >> ../README.md
 
 printf "\n" >> ../README.md
-
-
-echo "# Stats " >> ../README.md
-
-echo "Tempo para duplicar o número de casos $(cat tempo_para_duplicar.txt) dias." >> ../README.md
-
-printf "\n" >> ../README.md
-
 
 echo "# Links" >> ../README.md
 
