@@ -2,7 +2,7 @@
 # Stats 
 
 | Casos | Suspeitos | Recuperados | Obitos |
-| ----- |: --------:| :---------: | -----: |
+|-------|:---------:|:-----------:|-------:|
 
 Tempo para duplicar o número de casos 2.0755 dias.
 
