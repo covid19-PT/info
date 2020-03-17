@@ -43,8 +43,12 @@ printf "\n" >> ../README.md
 
 echo "| Casos | Suspeitos | Recuperados | Obitos |" >> ../README.md
 
+printf "\n" >> ../README.md
+
 echo "| ----- |: ------:| :--------: | ------: |" >> ../README.md
 
+
+printf "\n" >> ../README.md
 
 echo "Tempo para duplicar o número de casos $(cat tempo_para_duplicar.txt) dias." >> ../README.md
 
