@@ -1,3 +1,6 @@
+#Dados
+| Casos | Suspeitos | Recuperados | Obitos |
+| ----- |: ------:| :--------: | ------: |
 # Charts
 ![alt text](https://github.com/covid19-PT/stats/blob/master/meu/CasosCorona_17-Mar-2020.jpg "Logo Title Text 1")
 

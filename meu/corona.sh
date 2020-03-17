@@ -35,7 +35,15 @@ done < "$input"
 
 /usr/local/MATLAB/R2018a/bin/matlab -nodisplay -nosplash -nodesktop -r "run('corona_matlab.m');exit;"
 
-echo "# Charts" > ../README.md
+echo "#Dados" > ../README.md
+
+echo "| Casos | Suspeitos | Recuperados | Obitos |" >> ../README.md
+
+echo "| ----- |: ------:| :--------: | ------: |" >> ../README.md
+
+
+
+echo "# Charts" >> ../README.md
 
 echo "![alt text](https://github.com/covid19-PT/stats/blob/master/meu/CasosCorona_$(date +"%d-%b-%Y").jpg \"Logo Title Text 1\")" >> ../README.md
 printf "\n" >> ../README.md
