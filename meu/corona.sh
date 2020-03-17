@@ -35,6 +35,8 @@ done < "$input"
 
 /usr/local/MATLAB/R2018a/bin/matlab -nodisplay -nosplash -nodesktop -r "run('corona_matlab.m');exit;"
 
+echo "" > ../README.md
+
 echo "# Stats " >> ../README.md
 
 printf "\n" >> ../README.md
