@@ -33,7 +33,7 @@ done < "$input"
 
 
 
-/usr/local/MATLAB/R2018a/bin/matlab -nodisplay -nosplash -nodesktop -r "run('corona_matlab.m');exit;"
+#/usr/local/MATLAB/R2018a/bin/matlab -nodisplay -nosplash -nodesktop -r "run('corona_matlab.m');exit;"
 
 echo "" > ../README.md
 
@@ -45,7 +45,7 @@ echo "| Casos | Suspeitos | Recuperados | Obitos |" >> ../README.md
 
 printf "\n" >> ../README.md
 
-echo "|-----|:------:|:--------:|------:|" >> ../README.md
+echo "|-------|:---------:|:-----------:|-------:|" >> ../README.md
 
 
 printf "\n" >> ../README.md
