@@ -26,6 +26,7 @@ if [[ -f susp ]] ; then
 fi
 
 while IFS= read -r line; do 
+    conf=$( echo "$line" | cut -d ","  -f 1 )  ; echo $conf >> date
     conf=$( echo "$line" | cut -d ","  -f 2 )  ; echo $conf >> conf
     recu=$( echo "$line" | cut -d ","  -f 12 ) ; echo $recu >> recu
     susp=$( echo "$line" | cut -d ","  -f 17 ) ; echo $susp >> susp
@@ -36,6 +37,7 @@ done < "$input"
 
 #/usr/local/MATLAB/R2018a/bin/matlab -nodisplay -nosplash -nodesktop -r "run('corona_matlab.m');exit;"
 
+readarray -t date_ < date
 readarray -t conf_ < conf
 readarray -t recu_ < recu
 readarray -t susp_ < susp
@@ -47,8 +49,8 @@ echo "# Stats " >> ../README.md
 
 printf "\n" >> ../README.md
 
-echo "| Casos | Suspeitos | Recuperados | Obitos |" >> ../README.md
-echo "|-------|:---------:|:-----------:|-------:|" >> ../README.md
+echo "| Data | Casos | Suspeitos | Recuperados | Obitos |" >> ../README.md
+echo "|------|:-----:|:---------:|:-----------:|-------:|" >> ../README.md
 
 for (( j=0 ; j<${#conf_[@]} ; j++ )); do
     printf "| %s |" "${conf_[$j]}">> ../README.md

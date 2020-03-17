@@ -1,8 +1,8 @@
 
 # Stats 
 
-| Casos | Suspeitos | Recuperados | Obitos |
-|-------|:---------:|:-----------:|-------:|
+| Data | Casos | Suspeitos | Recuperados | Obitos |
+|------|:-----:|:---------:|:-----------:|-------:|
 | 0 | 25 | 0 | 0 |
 | 0 | 51 | 0 | 0 |
 | 0 | 59 | 0 | 0 |
