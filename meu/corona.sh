@@ -25,6 +25,14 @@ if [[ -f susp ]] ; then
     rm susp
 fi
 
+if [[ -f date ]] ; then
+    rm date
+fi
+
+if [[ -f obit ]] ; then
+    rm obit
+fi
+
 while IFS= read -r line; do 
     conf=$( echo "$line" | cut -d ","  -f 1 )  ; echo $conf >> date
     conf=$( echo "$line" | cut -d ","  -f 2 )  ; echo $conf >> conf
@@ -35,7 +43,7 @@ done < "$input"
 
 
 
-/usr/local/MATLAB/R2018a/bin/matlab -nodisplay -nosplash -nodesktop -r "run('corona_matlab.m');exit;"
+#/usr/local/MATLAB/R2018a/bin/matlab -nodisplay -nosplash -nodesktop -r "run('corona_matlab.m');exit;"
 
 readarray -t date_ < date
 readarray -t conf_ < conf
