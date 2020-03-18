@@ -31,8 +31,6 @@ Tempo para duplicar o número de casos 2.0748 dias.
 # Charts
 ![alt text](https://github.com/covid19-PT/stats/blob/master/meu/CasosCorona_18-Mar-2020.jpg "Logo Title Text 1")
 
-![alt text](https://github.com/covid19-PT/stats/blob/master/meu/CasosCorona_RecuperadosInfectados18-Mar-2020.jpg "Logo Title Text 1")
-
 ![alt text](https://github.com/covid19-PT/stats/blob/master/meu/InfoCasosCoronaEfectivos_18-Mar-2020.jpg "Logo Title Text 1")
 
 ![alt text](https://github.com/covid19-PT/stats/blob/master/meu/LTSim_ExponentialModel18-Mar-2020.jpg "Logo Title Text 1")
