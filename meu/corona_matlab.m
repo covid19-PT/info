@@ -73,7 +73,7 @@ figure, subplot(1,2,1), plot(tempo,cumul,'ko','MarkerSize',12), hold on, ...
 serie0=['Model y = ' num2str(curve.a) '* exp(' num2str(curve.b) '*x)  R^2 = ' num2str(rsq2)];
 legend('Dados',serie0)
 xlabel('tempo (dias)'); ylabel('casos totais')
-title(['Casos totais' date])
+title(['C. totais' date])
 set(gca,'linewidth',2,'fontsize',16)
 set(gcf,'units','normalized','outerposition',[0 0 1 1])
 grid on
@@ -83,7 +83,7 @@ grid on
 % %                     fvline(12,'b--','Medidas de contenção')
 serie1=['Model y = ' num2str(curveefectivos.a) '* exp(' num2str(curveefectivos.b) '*x)  R^2 = ' num2str(rsq2efectivos)];
 legend('Dados',serie1)
-title(['Casos efectivos' date])
+title(['C. efectivos' date])
 xlabel('tempo (dias)'); ylabel('casos efectivos')
 set(gca,'linewidth',2,'fontsize',16)
 set(gcf,'units','normalized','outerposition',[0 0 1 1])
@@ -125,7 +125,7 @@ datetick('x','dd','keepticks');
 set(gca,'XMinorTick','on','Ycolor','k')
 ylabel('casos confirmados')
 
-title(['Evolução Casos Confirmados (dados DGS ' date ')']);   %['Dados DGS  ' date '  12:00'])   
+title(['Evolução C. Confirmados (DGS ' date ')']);   %['Dados DGS  ' date '  12:00'])   
 ax = gca;
 ax.YRuler.Exponent = 0;
 set(gca,'linewidth',3,'fontsize',26)
@@ -168,7 +168,7 @@ figure, semilogy(ttx(1:length(casos)),cumul,'ko','MarkerSize',12,'MarkerFaceColo
 serie1=['Modelo y = ' num2str(curveefectivos.a) '* exp(' num2str(curveefectivos.b) '*x)  R^2 = ' num2str(rsq2efectivos)];
 h1=legend('Dados',serie1,'location','NorthWest');
 h1.FontSize=16;
-title(['Evolução Casos Confirmados (dados DGS ' date ')'])
+title(['Evolução C. Confirmados (DGS ' date ')'])
 xlabel('tempo (dias)'); 
 ylabel('casos confirmados')
 ax = gca;
