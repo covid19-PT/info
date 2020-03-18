@@ -79,8 +79,8 @@ echo "# Charts" >> ../README.md
 
 echo "![alt text](https://github.com/covid19-PT/stats/blob/master/meu/CasosCorona_$(date +"%d-%b-%Y").jpg \"Logo Title Text 1\")" >> ../README.md
 printf "\n" >> ../README.md
-echo "![alt text](https://github.com/covid19-PT/stats/blob/master/meu/CasosCorona_RecuperadosInfectados$(date +"%d-%b-%Y").jpg \"Logo Title Text 1\")" >> ../README.md
-printf "\n" >> ../README.md
+#echo "![alt text](https://github.com/covid19-PT/stats/blob/master/meu/CasosCorona_RecuperadosInfectados$(date +"%d-%b-%Y").jpg \"Logo Title Text 1\")" >> ../README.md
+#printf "\n" >> ../README.md
 #echo "![alt text](https://github.com/covid19-PT/stats/blob/master/meu/InfoCasosCoronaConfirmados_$(date +"%d-%b-%Y").jpg \"Logo Title Text 1\")">> ../README.md
 #printf "\n" >> ../README.md
 echo "![alt text](https://github.com/covid19-PT/stats/blob/master/meu/InfoCasosCoronaEfectivos_$(date +"%d-%b-%Y").jpg \"Logo Title Text 1\")">> ../README.md

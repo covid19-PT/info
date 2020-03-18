@@ -71,23 +71,23 @@ done
 
 printf "\n" >> ../README.md
 
-echo "Tempo para duplicar o número de casos $(cat tempo_para_duplicar.txt) dias." >> ../README.md
+#echo "Tempo para duplicar o número de casos $(cat tempo_para_duplicar.txt) dias." >> ../README.md
 
 printf "\n" >> ../README.md
 
-echo "# Charts" >> ../README.md
+#echo "# Charts" >> ../README.md
 
-echo "![alt text](https://github.com/covid19-PT/stats/blob/master/meu/CasosCorona_$(date +"%d-%b-%Y").jpg \"Logo Title Text 1\")" >> ../README.md
-printf "\n" >> ../README.md
+#echo "![alt text](https://github.com/covid19-PT/stats/blob/master/meu/CasosCorona_$(date +"%d-%b-%Y").jpg \"Logo Title Text 1\")" >> ../README.md
+#printf "\n" >> ../README.md
 #echo "![alt text](https://github.com/covid19-PT/stats/blob/master/meu/CasosCorona_RecuperadosInfectados$(date +"%d-%b-%Y").jpg \"Logo Title Text 1\")" >> ../README.md
 #printf "\n" >> ../README.md
 #echo "![alt text](https://github.com/covid19-PT/stats/blob/master/meu/InfoCasosCoronaConfirmados_$(date +"%d-%b-%Y").jpg \"Logo Title Text 1\")">> ../README.md
 #printf "\n" >> ../README.md
-echo "![alt text](https://github.com/covid19-PT/stats/blob/master/meu/InfoCasosCoronaEfectivos_$(date +"%d-%b-%Y").jpg \"Logo Title Text 1\")">> ../README.md
-printf "\n" >> ../README.md
-echo "![alt text](https://github.com/covid19-PT/stats/blob/master/meu/LTSim_ExponentialModel$(date +"%d-%b-%Y").jpg \"Logo Title Text 1\")">> ../README.md
-printf "\n" >> ../README.md
-echo "![alt text](https://github.com/covid19-PT/stats/blob/master/meu/Poly$(date +"%d-%b-%Y").jpg \"Logo Title Text 1\")" >> ../README.md
+#echo "![alt text](https://github.com/covid19-PT/stats/blob/master/meu/InfoCasosCoronaEfectivos_$(date +"%d-%b-%Y").jpg \"Logo Title Text 1\")">> ../README.md
+#printf "\n" >> ../README.md
+#echo "![alt text](https://github.com/covid19-PT/stats/blob/master/meu/LTSim_ExponentialModel$(date +"%d-%b-%Y").jpg \"Logo Title Text 1\")">> ../README.md
+#printf "\n" >> ../README.md
+#echo "![alt text](https://github.com/covid19-PT/stats/blob/master/meu/Poly$(date +"%d-%b-%Y").jpg \"Logo Title Text 1\")" >> ../README.md
 
 printf "\n" >> ../README.md
 
