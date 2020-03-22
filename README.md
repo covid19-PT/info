@@ -7,6 +7,7 @@
 # Tratamentos em pesquisa
 
 . Hydroxychloroquine and Chloroquine
+
 . Favipiravir/Avigan 
 
 
