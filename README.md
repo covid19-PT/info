@@ -15,6 +15,8 @@ https://covid-19.alibabacloud.com/
 
 https://www.worldometers.info/coronavirus/
 
+https://www.covidgraph.com/p/coronavirus.html
+
 https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6
 
 [MedCram - Medical Lectures Explained CLEARLY](https://www.youtube.com/channel/UCG-iSMVtWbbwDDXgXXypARQ)
