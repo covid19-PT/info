@@ -1,4 +1,5 @@
 # Rastreio e Sintomas
+
 * Perda de cheiro e sabor
 * Febre
 * Diarreia
