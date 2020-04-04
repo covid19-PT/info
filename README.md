@@ -3,6 +3,7 @@
 * Perda de cheiro e sabor
 * Febre
 * Diarreia
+* Tosse
 
 
 # Tratamento
