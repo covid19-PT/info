@@ -1,4 +1,7 @@
 # Rastreio e Sintomas
+* Perda de cheiro e sabor
+* Febre
+* Diarreia
 
 
 # Tratamento
@@ -10,7 +13,9 @@
 * Favipiravir/Avigan 
 * Hydroxychloroquine + Zink + Azithromycin(Zithromax)
 
+
 # Links:
+
 https://covid-19.alibabacloud.com/
 
 https://www.worldometers.info/coronavirus/
