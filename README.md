@@ -32,6 +32,8 @@ https://www.covidgraph.com/p/coronavirus.html
 
 https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6
 
+[Typical Progress of Covid-19 by Katri Manninen](https://katrimanninen.net/covid19progress/)
+
 [MedCram - Medical Lectures Explained CLEARLY](https://www.youtube.com/channel/UCG-iSMVtWbbwDDXgXXypARQ)
 
 [Dr. John Campbell](https://www.youtube.com/channel/UCF9IOB2TExg3QIBupFtBDxg)
